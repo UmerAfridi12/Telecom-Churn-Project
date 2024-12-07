@@ -3,9 +3,9 @@ import pandas as pd
 
 # Connecting to MySQL
 conn = mysql.connector.connect(
-    host='localhost',        
-    user='root',    
-    password='Um@r123',
+    host='hostname',        
+    user='username',    
+    password='password',
     database='telecom_db'     
 )
 
