@@ -1,0 +1,10 @@
+scikit-learn==1.5.2
+flask
+pandas
+joblib
+flask_cors
+mysql.connector
+google-generativeai
+python-dotenv
+langchain
+pymysql
