@@ -22,7 +22,7 @@ accounts_df = df[['customerID', 'tenure', 'Contract', 'PaperlessBilling', 'Payme
 
 churn_df = df[['customerID', 'Churn']]
 
-conn = mysql.connector.connect(host='localhost', username='root', password='Um@r123', database='telecom_db')  
+conn = mysql.connector.connect(host='hostname', username='username', password='password', database='telecom_db')  
 my_cursor = conn.cursor()
 
 insert_customers = """
